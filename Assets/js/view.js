@@ -18,7 +18,7 @@ racePHTML.innerHTML = "<h3>Your Race Is: </h3>" + uChar.race;
 classPHTML.innerHTML = "<h3>Your Class Is: </h3>" + uChar.cclass;
 specPHTML.innerHTML = "<h3>Your Specialization Is: </h3>" + uChar.spec;
 regionPHTML.innerHTML = "<h3>Your Region Is: </h3>" + uChar.region;
-let randomPic = ["img/BabyKia.jpg", "img/Frank.webp", "img/GenWow1.png", "img/LepDaHood.jpg", "img/Yuno.jpeg", "img/Teejayx6.jpg", "img/Thrall.webp"];
+let randomPic = ["Assets/img/BabyKia.jpg", "Assets/img/Frank.webp", "Assets/img/GenWow1.png", "Assets/img/LepDaHood.jpg", "Assets/img/Yuno.jpeg", "Assets/img/Teejayx6.jpg", "Assets/img/Thrall.webp"];
 
 
 let i = getRandomInt(0, randomPic.length);
