@@ -158,3 +158,34 @@ footer > p {
   .card-container {
     padding: 2px 16px;
   }
+
+  .form-container {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .onlyForm > select {
+    display: flex;
+    margin: 10px;
+    padding: 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: #EDE944;
+    background-color:#00437A;
+    border-radius: 50px;
+  }
+
+  .onlyForm > label {
+    font-family: sans-serif;
+  }
+
+  .onlyForm > input {
+    margin: 20px;
+    padding: 10px;
+    background-color: #00437A;
+    color: white;
+    border-radius: 50px;
+  }
