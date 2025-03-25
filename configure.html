@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Creation</title>
+    <link rel = "stylesheet" href = "/style.css">
+</head>
+<body>
+    <main>
+        <div class = "navbar-container" id = "navbar-container">
+            <img src = "resources/Logo.png">
+            <nav class = "navbar" id = "navbar">
+                <a href = "./home.html">Home</a>
+                <a href = "./configure.html">Create Character</a>
+                <a href = "./view.html">View Character</a>
+            </nav>
+            <button onclick="localStorage.clear()">Click to Clear Your localStorage!</button>
+        </div>
+        <h1>Create Your Character!</h1>
+        <div class = "form-container" id = "container">
+            <form class = "onlyForm" id = "onlyForm">
+                <label for = "race">Choose Your Race</label>
+                <select name = "race" id ="race-select">
+                    <option value = "Black">Black</option>
+                    <option value = "White">White</option>
+                    <option value = "Red">Red</option>
+                    <option value = "Brown">Brown</option>
+                    <option value = "Yellow">Yellow</option>
+                </select>
+                <label for ="class">Choose Your Class</label>
+                <select name = "class" id ="class-select">
+                    <option value = "Mage">Mage</option>
+                    <option value = "Warrior">Warrior</option>
+                    <option value = "Scammer">Scammer</option>
+                    <option value = "YN">YN</option>
+                    <option value = "Certified Crashout">Certified Crashout</option>
+                    <option value = "Software Engineer">Software Engineer</option>
+                </select>
+                <label for ="spec">Choose Your Specialization</label>
+                <select name = "spec" id ="spec-select">
+                    <option value = "Healer">Healer</option>
+                    <option value = "DPS">DPS</option>
+                    <option value = "Tank">Tank</option>
+                    <option value = "Paper Chaser">Paper Chaser</option>
+                    <option value = "Snitch/Informant">Snitch/Informant</option>
+                    <option value = "Civilian">Civilian</option>
+                </select>
+                <label for ="region">Choose Your Region</label>
+                <select name = "region" id ="region-select">
+                    <option value = "North America">North America</option>
+                    <option value = "Brazil">Brazil</option>
+                    <option value = "Asia/Oceania">Asia/Oceania</option>
+                    <option value = "Europe">Europe</option>
+                    <option value = "Africa">Africa</option>
+                    <option value = "The Screets">The Screets</option>
+                </select>
+                <input type = "submit" value = "Create!"/>
+            </form>
+    </div>
+    </main>
+    <script src = "/Assets/js/configure.js" type = "module"></script>
+</body>
+<footer class = "container" id = "footer-container">
+    <a href = "https://github.com/IsaiahOden">OdenCode</a>
+    <p>&copy; Copyright 2025</p>
+</footer>
+</html>

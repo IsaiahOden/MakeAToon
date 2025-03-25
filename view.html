@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account View</title>
+    <link rel = "stylesheet" href = "/style.css">
+</head>
+<body>
+    <main>
+        <div class = "navbar-container" id = "navbar-container">
+            <img src = "resources/Logo.png">
+            <nav class = "navbar" id = "navbar">
+                <a href = "./home.html">Home</a>
+                <a href = "./configure.html">Create Character</a>
+                <a href = "./view.html">View Character</a>
+            </nav>
+            <button onclick="localStorage.clear()">Click Here to Clear Your localStorage!</button>
+        </div>
+        <div class = "card" id = "nameCard">
+            <div class = "card-container">
+                <p id = "nameHere"></p>
+            </div>
+        </div>
+        <div class = "card" id = "raceCard">
+            <div class = "card-container">
+                <p id = "raceHere"></p> 
+            </div>
+        </div>
+        <div class = "card" id = "classCard">
+            <div class = "card-container">
+                <p id = "classHere"></p> 
+            </div>
+        </div>
+        <div class = "card" id = "specCard">
+            <div class = "card-container">
+                <p id = "specHere"></p> 
+            </div>
+        </div>
+        <div class = "card" id = "regionCard">
+            <div class = "card-container">
+                <p id = "regionHere"></p> 
+            </div>
+        </div>
+        <button id ="viewBTN">Click to View Character Image</button>
+        <img id="char-image" alt = "character image">
+    </main>
+    <script src = "/Assets/js/configure.js"></script>
+    <script src = "/Assets/js/view.js" type = "module"></script>
+</body>
+<footer class = "footer-container" id = "footer-container">
+    <a href = "https://github.com/IsaiahOden">OdenCode</a>
+    <p>&copy; Copyright 2025</p>
+</footer>
+</html>
